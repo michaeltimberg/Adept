@@ -1,0 +1,293 @@
+
+/* adept */
+
+body {
+    background-color: #242424!important;
+}
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 1400px;
+}
+
+.container-fluid > div {
+    margin-top: -20px;
+    margin-bottom: -10px;
+
+    padding: 0;
+}
+
+#firstDiv {
+    background-image: url('../images/twoDrinksFilter.jpg');
+
+    height: 830px;
+}
+
+#nav {
+    padding-top: 65px;
+    padding-bottom: 90px;
+
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+
+    padding-left: 0;
+}
+
+li {
+    display: table-cell;
+
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+
+    letter-spacing: 6px;
+
+    letter-spacing: 6px;
+
+    margin-right: -6px;
+    margin-bottom: 10px;
+
+    padding-right: 25px;
+    padding-left: 25px;
+
+    vertical-align: middle;
+}
+
+#home:after {
+    background: white;
+
+    content: '';
+
+    display: block;
+
+    height: 2px;
+    width: 100%;
+
+    position: absolute;
+}
+
+li > a {
+    color: white;
+
+    display: inline-block;
+
+    position: relative;
+
+    text-decoration: none;
+}
+
+li > a:visited {
+    color: white;
+
+    text-decoration: none;
+}
+
+li > a:focus {
+    color: white;
+
+    text-decoration: none;
+}
+
+li > a:hover {
+    color: white;
+
+    text-decoration: none;
+}
+
+li > a:hover::after {
+    background-color: white;
+
+    text-decoration: none;
+
+    transition: width 0.3s ease, background-color 0.3s ease;
+
+    width: 100%;
+}
+
+li > a::after {
+    background: transparent;
+
+    content: '';
+
+    display: block;
+
+    height: 2px;
+    width: 0;
+
+    margin: auto;
+
+    transition: width 2s ease, background-color 2s ease;
+}
+
+strong {
+    letter-spacing: 0;
+}
+
+#center-image > img {
+    height: 105px;
+    width: 120px;
+}
+
+#title {
+    text-align: center;
+}
+
+#title > h4,
+#title > h1 {
+    color: white;
+
+    margin: 0;
+}
+
+h4 {
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700!important;
+    font-size: 14px!important;
+
+    letter-spacing: 3.5px;
+
+    padding: 15px;
+}
+
+#title > h1 {
+    font-family:'bodoni-urw', serif;
+    font-weight: 300;
+    font-size: 56px;
+
+    padding: 2px;
+}
+
+#secondDiv {
+    background-color: #333333;
+
+    height: 510px;
+}
+
+#secondDiv > div {
+    color: white;
+
+    display: inline-block;
+
+    margin-top: 65px;
+    margin-right: -190px;
+    margin-left: 90px;
+
+    padding-right: 0;
+}
+
+#headline > h1 {
+    font-family:'bodoni-urw', serif;
+    font-weight: 500;
+    font-size: 56px;
+
+    letter-spacing: 10px;
+
+    margin-bottom: -5px;
+
+    padding: 0;
+}
+
+#headline > h2 {
+    display: inline;
+
+    font-family:'bodoni-urw', serif;
+    font-weight: normal;
+    font-size: 25px;
+    font-style: italic;
+
+    letter-spacing: 1.5px;
+
+    padding-top: 0;
+
+    margin-left: -5px;
+}
+
+#indent {
+    display: inline;
+
+    color: #4C3D3D;
+
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+
+    padding-left: 2px;
+}
+
+#headline > p {
+    color: #D0CCC1;
+
+    font-family: "futura-pt", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+
+    line-height: 1.65;
+
+    margin-top: 25px;
+}
+
+#hours,
+#location {
+    margin-top: 123px!important;
+    margin-right: -135px!important;
+}
+
+#hours > h3,
+#location > h3 {
+    font-family:'bodoni-urw', serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    letter-spacing: 6px;
+}
+
+#hours > h5,
+#location > h5 {
+    color: #7F7F7F;
+
+    font-family: "futura-pt", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+
+    letter-spacing: 4px;
+
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+#hours > h4,
+#location > h4 {
+    font-family:'bodoni-urw', serif;
+    font-weight: 200!important;
+    font-size: 23px!important;
+
+    letter-spacing: 1px;
+
+    margin-bottom: 0;
+
+    padding-top: 2px;
+    padding-bottom: 0;
+    padding-left: 5px;
+}
+
+.time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/*
+#lastDiv {
+    background: #232323; Default
+    background: -webkit-linear-gradient(#333333, #232323); Chrome Safari
+    background: -o-linear-gradient(#333333, #232323); Opera
+    background: -moz-linear-gradient(#333333, #232323); Firefox
+    background: linear-gradient(#333333, #232323); standard
+
+    height: 370px;
+} */
